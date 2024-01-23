@@ -46,7 +46,7 @@ class Human(Animal):
     def tiengKeu(self):
         return f"Ngôn ngữ: {self.sound}"
 
-Ho = Tiger("Hổ Việt Nam", "10", "đáng xợ wa", "Grr", "Gì cũng chén")
+Ho = Tiger("Hổ VN", "10", "đáng xợ wa", "Grrr", "Gì cũng ăn")
 print(Ho.xemThongTinHo())
 print(Ho.tiengKeu())
 
@@ -58,6 +58,6 @@ print(Cho.tiengKeu())
 
 print(f"\n")
 
-SinhvienIS = Human("ISers", "20", "thông minh s1tg", "tiếng sao Hỏa", "Ế bền vững")
+SinhvienIS = Human("ISers", "20", "thông minh s1tg", "tiếng sao Hỏa", "Ế :(((")
 print(SinhvienIS.xemThongTinNguoi())
 print(SinhvienIS.tiengKeu())
